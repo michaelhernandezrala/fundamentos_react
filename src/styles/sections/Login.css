@@ -1,0 +1,26 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login > .login__content {
+    padding: 2rem;
+    box-shadow: 2px 2px 5px #bbb;
+    width: 30%;
+}
+
+.login > .login__content > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.login > .login__content > .login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

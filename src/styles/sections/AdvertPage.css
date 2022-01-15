@@ -1,0 +1,19 @@
+.advertPage {
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.advertPage > .advertPage__img {
+    width: 100%;
+}
+
+.advertPage > h1 {
+    font-size: 2rem;
+}
+
+.advertPage p > strong {
+    margin-right: .3rem;
+}

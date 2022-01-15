@@ -1,0 +1,32 @@
+.counter-adverts {
+    text-align: end;
+    font-size: 1.5rem;
+}
+
+.adverts-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.adverts-content > .adverts-list {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.adverts-content > .adverts-list > .adverts-list-item {
+    min-width: calc(30% + 1rem);
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px #aaa;
+}
+
+.adverts-content > .adverts-list > .adverts-list-item:nth-child(3n) {
+    margin-right: 0;
+}
+

@@ -1,0 +1,12 @@
+.layout {
+    font-family: 'Roboto', sans-serif;
+}
+
+.layout > .layout__main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.layout > .layout__main > .layout__main--section {
+    margin: 4rem 0;
+}

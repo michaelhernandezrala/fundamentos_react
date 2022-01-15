@@ -1,0 +1,13 @@
+.search {
+    padding: 0 1.2rem;
+}
+
+.form-control__search {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control__search > label {
+    margin-bottom: .5rem;
+}
